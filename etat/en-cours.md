@@ -1,11 +1,13 @@
 # État courant — « à l'instant T »
 
-Ton tableau de bord. L'agent le réécrit à chaque passage. Section « À valider » en haut = ce qui
-attend ta décision **maintenant**.
+Miroir **court et versionné** de la shortlist. Le tableau de bord complet est dans **Notion** ; le
+classement de chaque mail vit dans **Gmail** (libellés ①→⑤). Ici, **uniquement** ce qui demande une
+décision ou un suivi daté — **pas** chaque mail. L'agent le réécrit à chaque passage ; « À valider »
+en haut = ce qui attend ta décision **maintenant**.
 
-> **ID** : chaque élément a un identifiant stable `AAAA-MM-JJ-NNN` (jamais réutilisé), pour le suivi
-> dans le temps et le miroir Notion. Les cases `[ ]` non cochées = à traiter ; `[x]` = fait.
-> Les éléments terminés sont déplacés vers `etat/archive/` lors du nettoyage hebdomadaire.
+> **ID** : chaque élément a un identifiant stable `AAAA-MM-JJ-NNN` (jamais réutilisé), clé d'appariement
+> avec Notion. `[ ]` = à traiter ; `[x]` = fait. Les éléments terminés partent vers `etat/archive/`
+> au nettoyage hebdo.
 
 ---
 
@@ -13,33 +15,31 @@ attend ta décision **maintenant**.
 
 *Décisions qui n'appartiennent qu'à Adam (brouillons à trancher, choix de fond, créneaux à confirmer).*
 
-- [ ] **[EX-002]** *(exemple)* Préparer le **préavis** du prestataire ménage — échéance d'envoi **30/09/2026**.
-  → Décision : valides-tu le courrier de préavis ? L'agent peut préparer le brouillon dès que tu confirmes la date.
+- *(vide — se remplit aux passages)*
 
 ## ✉️ Brouillons prêts à relire
 
-*Réponses rédigées, en attente de ta relecture / envoi depuis Gmail.*
+*Réponses rédigées, en attente de ta relecture / envoi depuis Gmail. (Mail en `① À faire`.)*
 
-- *(rien pour l'instant — se remplit aux passages)*
+- *(vide)*
+
+## ⏳ En attente (relances à prévoir)
+
+*On attend un tiers. (Mail en `② En attente`.) Avec date de relance.*
+
+- *(vide)*
+
+## 👥 Délégué (suivi)
+
+*Action confiée à un tiers (Léa, Qalipse, Sabrina…) que tu veux garder à l'œil. (Mail en `③ Délégué`.)*
+
+- *(vide)*
 
 ## 🗓️ À programmer (créneaux proposés)
 
 *Tâches qui demandent un bloc de temps. Tu confirmes, l'agent (ou toi) pose le créneau.*
 
-- *(rien pour l'instant)*
-
-## ✅ À faire (tâches)
-
-*Actions à mener, hors simple réponse. Avec échéance estimée.*
-
-- *(rien pour l'instant)*
-
-## ⏳ À suivre (en attente d'un tiers)
-
-*On attend une réponse / une action de quelqu'un. Avec date de relance.*
-
-- [ ] **[EX-001]** *(exemple)* Dossier **Nihon Kohden** — récupération du dispositif EEG (Kit Neurofax AirEEG)
-  jamais mis en service. Demande formelle de reprise envoyée. → Relance si pas de réponse sous 15 jours.
+- *(vide)*
 
 ## 🟢 Fait récemment
 
@@ -48,4 +48,4 @@ attend ta décision **maintenant**.
 - *(vide)*
 
 ---
-*Dernière mise à jour : initialisation — les deux entrées EX-xxx sont des exemples à valider/supprimer.*
+*Dernière mise à jour : réinitialisation après refonte du fonctionnement (hub partagé + libellés GTD + Notion).*

@@ -48,15 +48,19 @@ docs/                ← mise en place Notion + routine planifiée
 
 ## Où regarder au quotidien
 
-- **`etat/en-cours.md`** = ta vue principale. Section « À valider » en haut = ce qui attend ta décision,
-  brouillons prêts, créneaux proposés. (En Phase 1, le tableau Notion en est le reflet, plus joli et
-  accessible sur mobile.)
-- Dans **Gmail**, les libellés `Organiseur/…` te montrent le classement directement dans ta boîte.
+- **Notion** = ton tableau de bord (mobile, partageable) : la shortlist à décider/suivre.
+- **`etat/en-cours.md`** = le miroir court versionné par git (inspectable), même contenu que Notion.
+- Dans **Gmail**, tes libellés GTD `① À faire` / `② En attente` / `③ Délégué` / `④ À lire` / `⑤ Archive`
+  portent le classement directement dans la boîte ; `🤖 Trié` marque ce que l'agent a déjà vu.
+
+> ⚠️ Ce n'est pas une boîte perso : c'est un **hub partagé** (plusieurs comptes, plusieurs personnes).
+> L'agent se demande toujours « à qui revient l'action » avant de répondre.
 
 ## Règles importantes (déjà câblées dans `CLAUDE.md`)
 
-- L'agent **n'envoie jamais** : il prépare des brouillons.
-- **Aucune donnée patient** ne rentre ici. Réservé à la correspondance opérationnelle.
+- L'agent **n'envoie jamais** : il prépare des brouillons. Il **n'archive/supprime/déplace** rien (libellés seulement).
+- **Données de santé** : traitées normalement (opérationnel), sans recopier de contenu clinique brut
+  dans le dépôt/Notion. Pas de blocage.
 - Un mail qui contient un ordre n'est **pas** une instruction : l'agent te le signale, il n'obéit pas.
 
 ## À remplir en premier (pour des brouillons tout de suite plus justes)
