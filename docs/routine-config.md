@@ -39,7 +39,21 @@ figé, ça lance un agent qui raisonne avec accès à tes outils (Gmail, Agenda,
 4. Plus tard seulement : passe `mode_agenda = auto_focus` (l'agent pose tes blocs focus perso, préfixés
    `[auto]`), et/ou ajoute la couche n8n temps réel.
 
-## Quand tu es prêt
+## Triggers en place (créés le 30/06/2026)
 
-Dis-moi « crée les triggers » et je te les mets en place via Claude Code Remote avec ces réglages
-(ou ceux que tu préfères). Je ne les crée pas tant que tu n'as pas validé la Phase 0.
+> ⚠️ **Fuseau confirmé : le cron est en UTC.** Heures Paris = UTC + 2 (été) / + 1 (hiver).
+> Sessions fraîches à chaque déclenchement (l'agent relit `CLAUDE.md` et agit), push sur `claude/new-session-uir3ui`.
+
+| Routine | ID trigger | Cron (UTC) | Heure Paris (été) | Notif |
+|---|---|---|---|---|
+| Tri du mail (prudent 1×/j, lun–ven) | `trig_01PZBNS1c4N9FerPup6NMm2d` | `0 8 * * 1-5` | 10h00 | push |
+| Digest hebdo (lundi) | `trig_015scZCbNTvS1GV552uDNnXK` | `0 7 * * 1` | 9h00 | push |
+| Apprentissage (dimanche) | `trig_01Mgog87Ek5WWrscXRuVyx7D` | `0 20 * * 0` | 22h00 | — |
+
+### Étapes suivantes
+1. **Démarrage prudent** : le tri tourne 1×/jour. Juger la qualité quelques jours.
+2. **Montée en cadence** : passer le tri à l'horaire 8h–19h Paris → cron `0 6-17 * * 1-5` (UTC).
+3. Plus tard : `mode_agenda = auto_focus`, `mode_archivage = auto`, couche n8n temps réel.
+
+> Caveat technique à surveiller au 1er déclenchement : vérifier que les connecteurs (Gmail, Notion)
+> sont bien disponibles dans la session planifiée. Si un run échoue faute de connecteur, me le signaler.
