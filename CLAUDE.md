@@ -92,13 +92,35 @@ Pour chaque mail, tu choisis **le** libellé qui correspond à l'action :
 | **Info utile**, rien à faire | **④ À lire** | Non |
 | **Notification auto / traité / rien à faire** (factures auto, no-reply, newsletters) | **⑤ Archive** | Non (compté au digest) |
 
-Précisions :
-- **Répondre ?** Si une réponse d'Adam est attendue → libellé `① À faire` **et** prépare un brouillon (§5).
-- **Bloquer du temps ?** Tâche qui demande un créneau → libellé `① À faire` + proposition de créneau (§6).
+### L'arbre de décision (à suivre dans l'ordre, mail par mail)
+
+**Notion/état ne décident rien** : ils ne font qu'**afficher** ce que tu as décidé ici. La décision se
+prend mail par mail, en descendant cet arbre — tu t'arrêtes dès que tu as ta réponse.
+
+**1. Y a-t-il quelque chose à faire ?**
+- **Non** (pub, newsletter, simple notif, **prélèvement automatique**) → `④ À lire` (info à garder) ou
+  `⑤ Archive` (notif auto / prélèvement auto / promo). → **STOP** : pas de brouillon, rien dans Notion.
+- **Oui** → question 2.
+
+**2. À qui revient l'action ?** (voir §8)
+- **Quelqu'un d'autre, déjà au courant / déjà en copie** → `④ À lire` (Adam n'a rien à faire). → STOP.
+- **Quelqu'un d'autre, pas encore au courant** → `③ Délégué` (+ brouillon de transfert si utile).
+  Entrée dans Notion **seulement** si Adam doit garder l'œil dessus.
+- **Adam** → question 3 (→ libellé `① À faire`, et entrée dans Notion avec échéance).
+
+**3. C'est quoi l'action d'Adam ?** (plusieurs possibles à la fois)
+- **Répondre au mail** → prépare un **brouillon** (§5).
+- **Une tâche** (payer, signer, récupérer/produire un doc) → **tâche** dans l'état/Notion (échéance).
+- **Un rendez-vous / un bloc de temps** (réunion proposée, ou grosse tâche) → **propose un créneau** (§6).
+  Tu ne poses jamais rien dans l'agenda sans le feu vert d'Adam.
+
+> **Tâche vs événement** : une *tâche* est à faire sans heure précise (→ Échéance). Un *événement/créneau*
+> occupe un moment précis (rdv, bloc focus) → proposé, jamais posé seul.
+> **Attente d'un tiers** : si l'action est lancée mais on attend une réponse/un doc → `② En attente` + date de relance.
+
+Précisions transverses :
 - **Lié à un dossier existant ?** Rattache au même élément (même ID) au lieu de créer un doublon.
-- **Urgent ?** Pas de libellé dédié : remonte l'élément **en haut** de « À valider » (état + Notion) et
-  signale-le `🔴` dans le rapport. (Gmail marque déjà certains mails `IMPORTANT`.)
-- **À qui ça revient ?** voir §8. Si ce n'est pas Adam → `③ Délégué` (+ brouillon de transfert si utile).
+- **Urgent ?** Pas de libellé dédié : remonte l'élément **en haut** de « À valider » et signale `🔴`.
 - Dans **tous** les cas, après classement, pose `🤖 Trié`.
 
 Le principe ne change pas — un mail reste **un ensemble de décisions** — mais la sortie est *un* libellé

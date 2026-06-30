@@ -23,3 +23,16 @@ en déduit les écarts, et inscrit les règles ici + dans `cerveau/style.md` / l
 ## Journal
 
 <!-- Les entrées s'ajoutent ici, plus récentes en bas -->
+
+### 2026-06-30 — Global (corrections d'Adam après le 1er passage réel)
+- Observation : Adam corrige le classement de notifications et de partages.
+- Règle déduite 1 : **prélèvement automatique → `⑤ Archive`** (rien à faire), pas `③ Délégué` ni `④ À lire`.
+- Règle déduite 2 : **si les personnes qui doivent agir sont déjà en copie → `④ À lire`** (Adam n'a rien à faire), ne pas créer de `③ Délégué`.
+- Écrites dans : `CLAUDE.md` §4 (arbre de décision, Q1 et Q2).
+- Statut : validée (corrections explicites d'Adam).
+
+### 2026-06-30 — Global (clarification du fonctionnement)
+- Observation : la taxonomie écrite comme une liste de questions parallèles prêtait à confusion.
+- Règle déduite : formaliser la décision en **arbre ordonné** (action ? → à qui ? → quoi ? → Notion ne fait qu'afficher).
+- Écrite dans : `CLAUDE.md` §4.
+- Statut : validée.

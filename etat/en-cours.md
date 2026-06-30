@@ -29,15 +29,15 @@ décision ou suivi. « À valider » en haut = ce qui attend ta décision **main
 - [2026-06-30-005] Médecine du travail — télécharger l'attestation (espace AMI Prévention) et classer au dossier RH — éch. 07/07
 
 👥 Délégué (signalé dans Gmail, pas de suivi rapproché)
-- Compta (Léa) : factures DrSanté, RIING, Intesia, bordereau Smatis
-- Équipe médicale : partage SomnoConsulting, « results »
-- Sabrina : fil RH « Suite entretien » (Maryse)
+- Compta (Léa) : factures RIING, Intesia, bordereau Smatis
+- Sabrina : fil RH « Suite entretien »
+- ④ À lire (déjà en copie / prélèvement auto) : SomnoConsulting, « results » (équipe déjà en copie) ;
+  DrSanté + Pennylane passés en ⑤ Archive (prélèvements auto) (Maryse)
 
 👤 Nouveaux contacts (fiches squelette créées)
 - David Marciano, Léa Zaoui, Boris Schick, Hugo Zagury (Increst), Sabrina Couchinho
 
-✅ Classé sans action : ① 5 · ③ 9 · ④ 2 · ⑤ 4
-❓ Incertitudes : « results » et SomnoConsulting délégués à l'équipe médicale (à confirmer : qui les traite ?)
+✅ Classé sans action : ① 5 · ③ 6 · ④ 3 · ⑤ 6 (après corrections d'Adam)
 
 ---
 *Dernière mise à jour : 30/06/2026, 1er passage réel sur le nouveau fonctionnement (hub + GTD + Notion).*
