@@ -1,0 +1,14 @@
+# macOS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — ne jamais committer de clés/identifiants
+.env
+*.key
+*.pem
+secrets/
+
+# Rien de sensible ne doit vivre ici en clair : ce dépôt doit rester PRIVÉ.
